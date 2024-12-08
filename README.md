@@ -1,5 +1,5 @@
 # **AR Sayı Bulmaca ve Kumsalda AR Projesi**
-# **Kaito Math**
+# **KaitoMath**
 
 ## **Proje Tanıtımı**  
 Bu repo, artırılmış gerçeklik (AR) teknolojisi kullanılarak geliştirilmiş iki farklı projeyi içermektedir:  
