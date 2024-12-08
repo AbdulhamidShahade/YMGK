@@ -44,7 +44,7 @@ Her iki proje de kullanıcıların görsel açıdan etkileyici ve eğitici içer
 
 ## **Demo ve Sunumlar**  
 ### **Web Sitesi:**  
-Projenin canlı sürümüne ulaşmak için: [hamitsahadi.com](http://hamitsahadi.com)
+Projemin websitesi: [hamitsahadi.com](http://hamitsahadi.com)
 
 ### **YouTube Sunumu:**  
 Proje tanıtımı için detaylı sunumları aşağıdaki bağlantılardan izleyebilirsiniz:  
