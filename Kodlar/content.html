@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KaitoMath - Content</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: url('image2-url.png') no-repeat center center/cover;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+        }
+
+        .navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 10px 0;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            z-index: 1000;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .navbar a:hover {
+            background-color: #ff7f00;
+            color: #fff;
+        }
+
+        .resources-container {
+            margin-top: 100px; /* To adjust for the fixed navbar */
+            text-align: center;
+        }
+
+        .resources-container h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #ff7f00;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+
+        .resource-cards {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+
+        .resource-card {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            width: 250px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .resource-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        }
+
+        .resource-card img {
+            width: 60px;
+            margin-bottom: 10px;
+        }
+
+        .resource-card p {
+            font-size: 16px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .resource-card a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        .resource-card a:hover {
+            color: #0056b3;
+        }
+
+        footer {
+            margin-top: 50px;
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 14px;
+        }
+
+        footer a {
+            color: #ff7f00;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        footer a:hover {
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="content.html">Contents</a>
+        <a href="contact.html">Contact</a>
+        <a href="login.html">Login</a>
+    </div>
+
+    <div class="resources-container">
+        <h1>Belgeler ve Projeler</h1>
+        <div class="resource-cards">
+            <div class="resource-card">
+                <img src="https://shorturl.at/ZtOCT" alt="Document">
+                <p>Proje ile ilgili dokümantasyonlar</p>
+                <a href="https://github.com/AbdulhamidShahade/YMGK">Dokümantasyonları İncele</a>
+            </div>
+            <div class="resource-card">
+                <img src="https://shorturl.at/ZtOCT" alt="GitHub">
+                <p>Proje GitHub</p>
+                <a href="https://github.com/AbdulhamidShahade/YMGK">GitHub Repo</a>
+            </div>
+            <div class="resource-card">
+                <img src="https://shorturl.at/ezaOZ" alt="Trello">
+                <p>Projenin Trello panosu</p>
+                <a href="https://trello.com/b/8d3tUOEk/ymgk">Trello'yu Aç</a>
+            </div>
+            <div class="resource-card">
+                <img src="https://shorturl.at/TLiJL" alt="Trello">
+                <p>Sayı Bulmaca AR Oyunu</p>
+                <a href="https://www.youtube.com/shorts/17aLSiUavBY">Youtube'ta İzle</a>
+            </div>
+            <div class="resource-card">
+                <img src="https://shorturl.at/Nwbv5" alt="Trello">
+                <p>Kumsalda AR Oyunu</p>
+                <a href="https://www.youtube.com/shorts/Y-4KEx7hAYY">Youtube'ta İzle</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 KaitoMath. All Rights Reserved. Designed by Abdulhamit Şahadi. <a href="contact.html">Contact Us</a></p>
+    </footer>
+</body>
+</html>
