@@ -1,4 +1,4 @@
-# **AR Sayı Bulmaca ve Kumsalda AR Projesi**
+# **AR Sayı Bulmaca ve Kumsalda AR Projesi Vise + Final**
 # **KaitoMath**
 
 ## **Proje Tanıtımı**  
